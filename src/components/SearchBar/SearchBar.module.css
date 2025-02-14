@@ -1,0 +1,26 @@
+.inputForm {
+    margin-bottom: 20px;
+  }
+  .input {
+    height: 40px;
+    width: 250px;
+    border-radius: 7px;
+    padding-left: 20px;
+    margin-right: 10px; /* простір між введенням і кнопкою */
+  }
+  
+  .buttonSearch {
+    height: 40px;
+    border-radius: 7px;
+    background-color: #4c9baf; /* колір фону кнопки */
+    color: white; /* колір тексту */
+    border: none; /* без рамки */
+    padding: 0 20px; /* відступи в середині кнопки */
+    cursor: pointer; /* курсор при наведенні */
+    transition: background-color 0.3s ease; /* плавна зміна кольору фону */
+  }
+  
+  .buttonSearch:hover {
+    background-color: #457ba0; /* темніший відтінок фону при ховері */
+  }
+  

@@ -1,0 +1,20 @@
+.loadMore {
+    display: flex;
+    margin: 0 auto;
+    width: 120px;
+    font-size: 16px;
+    padding: 4px;
+    background-color: #e6ee5c;
+    justify-content: center;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 300ms ease-in-out, font-weight 300ms ease-in-out;
+  }
+  
+  .loadMore:hover,
+  .loadMore:focus {
+    background-color: #71de8c;
+    font-weight: 600;
+  }
+  
